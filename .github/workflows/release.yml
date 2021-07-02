@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Helm
+        uses: azure/setup-helm@v1
+        with:
+          version: v3.6.2
+
+      - name: Package component
+        run: helm package chart -d dist
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          body: |
+            # TODO
+            Copy the relevant entries from CHANGELOG.md for this release
+          files: dist/*.tgz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
