@@ -5,7 +5,7 @@ pull requests that might add context.
 
 Remember to assign the pull request to a [CODEOWNER](../CODEOWNERS) for review.
 
-**ALWAYS** open PRs targeting [main](https://github.com/enseadaio/enseada/tree/main), as it is our mainline branch.
+**ALWAYS** open PRs targeting `main`, as it is our mainline branch.
 
 ### Contribution checklist
 
