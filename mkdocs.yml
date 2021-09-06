@@ -1,4 +1,4 @@
-site_name: cert-manager Component
+site_name: components/cert-manager
 site_url: https://docs.karavel.io/components/cert-manager
 repo_name: projectkaravel/platform-component-cert-manager
 repo_url: https://github.com/projectkaravel/platform-component-cert-manager
