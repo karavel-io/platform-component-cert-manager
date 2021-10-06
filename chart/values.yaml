@@ -12,7 +12,9 @@ letsencrypt:
     email: ""
     domains: []
     secret:
-      backend: secretsManager
+      store:
+        name: default
+        kind: ClusterSecretStore
       key: ""
       property: ""
 
