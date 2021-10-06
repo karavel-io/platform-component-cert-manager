@@ -10,7 +10,7 @@ Remember to assign the pull request to a [CODEOWNER](../CODEOWNERS) for review.
 ### Contribution checklist
 
 - [ ] I have read the [Contribution Guide](../CONTRIBUTING.md)
-- [ ] I have read the [Code of Conduct](https://github.com/projectkaravel/community/blob/main/CODE_OF_CONDUCT.md) and I accept to follow it in all your interactions with the project
+- [ ] I have read the [Code of Conduct](https://github.com/karavel-io/community/blob/main/CODE_OF_CONDUCT.md) and I accept to follow it in all your interactions with the project
 - [ ] I have added the relevant entries to the [CHANGELOG](../CHANGELOG.md) in the `Unreleased` section
 
 ### DCO Notice

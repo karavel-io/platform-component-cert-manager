@@ -11,7 +11,7 @@ maintainers:
 home: https://cert-manager.io
 sources:
   - https://github.com/jetstack/cert-manager
-  - https://github.com/projectkaravel/platform-component-cert-manager
+  - https://github.com/karavel-io/platform-component-cert-manager
 
 annotations:
   karavel.io/bootstrap: 'true'

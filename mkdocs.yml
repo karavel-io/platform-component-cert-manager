@@ -1,7 +1,7 @@
 site_name: components/cert-manager
 site_url: https://docs.karavel.io/components/cert-manager
-repo_name: projectkaravel/platform-component-cert-manager
-repo_url: https://github.com/projectkaravel/platform-component-cert-manager
+repo_name: karavel-io/platform-component-cert-manager
+repo_url: https://github.com/karavel-io/platform-component-cert-manager
 copyright: © 2021 The Karavel Project | Documentation distributed under CC BY SA 4.0
 strict: false
 theme:

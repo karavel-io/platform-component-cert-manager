@@ -16,8 +16,8 @@ This branch will host the last-minute changes and fixes in preparation for the a
 
 ### Creating the release
 Once the pull request is approved and merged, immediately create a new branch called `X.Y` from `main`, then tag the new version
-by running `git tag X.Y.0` on that branch. A [CI job](https://github.com/projectkaravel/platform-component-cert-manager/actions/workflows/release.yml) 
-will kick in, packaging the component and creating the corresponding [release](https://github.com/projectkaravel/platform-component-cert-manager/releases).
+by running `git tag X.Y.0` on that branch. A [CI job](https://github.com/karavel-io/platform-component-cert-manager/actions/workflows/release.yml) 
+will kick in, packaging the component and creating the corresponding [release](https://github.com/karavel-io/platform-component-cert-manager/releases).
 
 Edit the release body with the relevant CHANGELOG section and publish it.
 
@@ -62,6 +62,6 @@ section, once per each new tag.
 Congratulations, you just released a new patch version!
 
 [SemVer 2.0]: https://semver.org/
-[Karavel Container Platform]: https://github.com/projectkaravel/platform
+[Karavel Container Platform]: https://github.com/karavel-io/platform
 [Chart.yaml]: chart/Chart.yaml
 [Rebase and merge]: Rebasing and merging your commits
