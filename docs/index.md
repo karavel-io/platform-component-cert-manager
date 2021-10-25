@@ -2,7 +2,7 @@
 
 ![Component version](https://img.shields.io/badge/dynamic/yaml?color=blue&label=component+version&query=$.entries.cert-manager[0].version&url=https%3A%2F%2Frepository.platform.karavel.io%2Funstable%2Findex.yaml&style=for-the-badge)
 [![cert-manager version](https://img.shields.io/badge/dynamic/yaml?color=blue&label=cert-manager+version&query=$.entries.cert-manager[0].appVersion&url=https%3A%2F%2Frepository.platform.karavel.io%2Funstable%2Findex.yaml&style=for-the-badge)](https://cert-manager.io)
-[Documentation](https://docs.karavel.io/components/cert-manager)
+[Documentation](https://platform.karavel.io/components/cert-manager)
 
 ## Overview
 
