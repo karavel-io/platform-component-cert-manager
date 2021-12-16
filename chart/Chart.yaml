@@ -3,7 +3,7 @@ name: cert-manager
 description: cert-manager component for Karavel
 type: application
 version: 0.1.0-SNAPSHOT
-appVersion: 1.5.4
+appVersion: 1.6.0
 maintainers:
   - name: MatteoJoliveau
     email: matteo.joliveau@mikamai.com
