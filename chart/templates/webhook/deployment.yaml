@@ -33,13 +33,13 @@ spec:
           imagePullPolicy: IfNotPresent
           args:
           - --v=2
-          - --secure-port=10250
+          - --secure-port=6443
           - --dynamic-serving-ca-secret-namespace=$(POD_NAMESPACE)
-          - --dynamic-serving-ca-secret-name=cert-manager-webhook-ca
+          - --dynamic-serving-ca-secret-name={{ include "cert-manager.name" . }}-webhook-ca
           - --dynamic-serving-dns-names={{ include "cert-manager.name" . }}-webhook,{{ include "cert-manager.name" . }}-webhook.{{ include "cert-manager.name" . }},{{ include "cert-manager.name" . }}-webhook.{{ include "cert-manager.name" . }}.svc
           ports:
           - name: https
-            containerPort: 10250
+            containerPort: 6443
           livenessProbe:
             httpGet:
               path: /livez

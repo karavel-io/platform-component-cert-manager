@@ -21,7 +21,7 @@ rules:
 - apiGroups: [""]
   resources: ["secrets"]
   resourceNames:
-  - 'cert-manager-webhook-ca'
+  - '{{ include "cert-manager.name" . }}-webhook-ca'
   verbs: ["get", "list", "watch", "update"]
 # It's not possible to grant CREATE permission on a single resourceName.
 - apiGroups: [""]
