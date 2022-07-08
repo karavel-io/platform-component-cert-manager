@@ -13,6 +13,8 @@ This branch will host the last-minute changes and fixes in preparation for the a
 
 - [ ] Update the [CHANGELOG](CHANGELOG.md) by moving all `Unreleased` entries to a new section called `[X.Y.0] - YYYY-MM-DD`
 - [ ] Update the [Chart.yaml] `version` field
+- [ ] Create a new folder in [docs] with updated documentation
+- [ ] Update the [mkdocs.yaml] nav section with the new minor entry
 
 ### Creating the release
 Once the pull request is approved and merged, immediately create a new branch called `X.Y` from `main`, then tag the new version

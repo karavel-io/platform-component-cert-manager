@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2022-07-08
+
+### Changed
+
+- Added `namespace: cert-manager` to [values.yaml](chart/values.yaml) as required by [Karavel CLI 0.4](https://github.com/karavel-io/cli/releases/tag/v0.4.0)
+- Updated to cert-manager [v1.8.2](https://github.com/cert-manager/cert-manager/releases/tag/v1.8.2)
+
+
 ## [1.0.1] - 2022-04-21
 
 ### Changed
