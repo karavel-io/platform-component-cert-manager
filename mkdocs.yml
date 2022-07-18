@@ -22,5 +22,9 @@ markdown_extensions:
       permalink: true
 nav:
   - Overview: index.md
-  - 1.0.0:
-    - 1.0.0/configuration.md
+  - 1.0:
+    - 1.0/configuration.md
+  - 1.1:
+    - 1.1/configuration.md
+  - 1.2:
+    - 1.2/configuration.md
